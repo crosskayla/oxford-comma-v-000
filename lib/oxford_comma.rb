@@ -1,5 +1,3 @@
 def oxford_comma(array)
-  array.each do |word|
-    array.join(', ')
-  end
+  array.collect! {|word| word + ', '}
 end
