@@ -1,5 +1,6 @@
 def oxford_comma(array)
   array.each do |word|
-    unless word == array.last
+    until word == array.last
+      array.join(', ')
   end
 end
