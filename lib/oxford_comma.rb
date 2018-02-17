@@ -1,5 +1,7 @@
 def oxford_comma(array)
-  array.collect! {|word| word + ', '}
+  array.each do |word|
+    until word == array.last
+      word << ", "
 end
 
 test_array = ["fiddleheads","okra","kohlrabi"]
