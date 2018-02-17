@@ -1,4 +1,5 @@
 def oxford_comma(array)
-  array.each |word|
-  unless array
+  array.each do |word|
+    unless array
+  end
 end
