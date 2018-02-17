@@ -1,10 +1,8 @@
 def oxford_comma(array)
   array.each do |word|
-    if word != array.last
       word << ", "
     end
-    word << ", and "
-  end
+#    word << ", and "
 end
 
 test_array = ["fiddleheads","okra","kohlrabi"]
