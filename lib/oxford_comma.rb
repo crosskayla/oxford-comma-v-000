@@ -1,8 +1,5 @@
 def oxford_comma(array)
-  array.each do |word|
-      word << ", "
-    end
-#    word << ", and "
+  array * ","
 end
 
 test_array = ["fiddleheads","okra","kohlrabi"]
